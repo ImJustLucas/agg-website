@@ -14,7 +14,7 @@ const GlobalThemeContext = React.createContext({
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GlobalThemeProvider = (props: any) => {
   const isDarkTheme = useThemeDetector();
-  const [globalTheme, setGlobalTheme] = React.useState(themes.light);
+  const [globalTheme, setGlobalTheme] = React.useState(themes.dark);
 
   const switchTheme = () => {
     setGlobalTheme(globalTheme.name === "dark" ? themes.light : themes.dark);
