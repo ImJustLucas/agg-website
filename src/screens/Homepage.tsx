@@ -26,7 +26,6 @@ const HeaderContainer = styled.header`
   max-width: 1200px;
   width: 90%;
   padding: 32px 0;
-  color: ${({ theme }) => theme.colors.text.contrast};
 `;
 
 const FooterContainer = styled.footer`
@@ -36,7 +35,6 @@ const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   gap: 16px;
-  color: ${({ theme }) => theme.colors.text.contrast};
 
   svg path {
     fill: ${({ theme }) => theme.colors.text.contrast};
@@ -48,7 +46,6 @@ const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: ${({ theme }) => theme.colors.text.contrast};
   font-size: 2rem;
   font-weight: 500;
 `;
