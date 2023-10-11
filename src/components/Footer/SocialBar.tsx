@@ -6,8 +6,9 @@ export const SocialBar: React.FC = () => {
     <SocialBarStyled>
       <Link
         className="icon github--icon"
-        href="https://github.com/Almost-Good-Guys"
+        href="https://github.com/ImJustLucas/agg-website"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <svg
           width="24"
@@ -29,11 +30,6 @@ export const SocialBar: React.FC = () => {
           </defs>
         </svg>
       </Link>
-      <Link
-        className="icon linkedin--icon"
-        href="https://www.linkedin.com/in/lucasbellier/"
-        target="_blank"
-      ></Link>
     </SocialBarStyled>
   );
 };
